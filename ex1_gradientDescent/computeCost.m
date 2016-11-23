@@ -5,7 +5,7 @@ function J = computeCost(X, y, theta)
 
 m = length(y); % number of training examples
 
-h =  X * theta;
+h = X * theta;
 dist = (h - y) .^ 2;
 J = sum(dist) / (2 * m);
 
