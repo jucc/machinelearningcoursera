@@ -9,14 +9,4 @@ h =  X * theta;
 dist = (h - y) .^ 2;
 J = sum(dist) / (2 * m);
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: Compute the cost of a particular choice of theta
-%               You should set J to the cost.
-
-
-
-
-
-% =========================================================================
-
 end
